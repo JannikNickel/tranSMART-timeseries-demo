@@ -16,7 +16,7 @@ docker-compose pull
 
 #Run for the first time
 echo "> Starting instance (warmup)"
-command="docker-compose up"
+docker-compose up
 
 #Wait about one minute for first startup
 echo "> Waiting 60 seconds..."
