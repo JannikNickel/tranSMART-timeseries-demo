@@ -1,4 +1,4 @@
-# BA tranSMART MIMIC-III demo
+# tranSMART timeseries demo
 
 Install script for creating a docker based tranSMART installation on an ubuntu server. (tested with 18.04 LTS)
 The docker setup is available at https://gitlab.gwdg.de/medinfpub/tm_umg and will be downloaded by the install script.
