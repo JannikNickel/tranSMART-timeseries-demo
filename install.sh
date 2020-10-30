@@ -6,6 +6,8 @@ FULL_DATASET="$2"
 #Clone docker based transmart
 git clone https://gitlab.gwdg.de/medinfpub/tm_umg.git --branch master --single-branch
 cd tm_umg
+#Set head to the tested commit
+git checkout b03a69a47a700207b5ff9b2745677754f664beed
 
 #Setup transmart settings
 cp .env_RENAME .env
