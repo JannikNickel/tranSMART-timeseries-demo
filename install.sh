@@ -29,6 +29,9 @@ docker-compose down
 
 #Clear imported data
 docker volume rm -f tm_umg_tm_postgresdata
+#Delete example study
+sudo rm /var/lib/docker/volumes/tm_umg_tm_opt/_data/data/incoming/GSE7390.zip
+sudo rm /var/lib/docker/volumes/tm_umg_tm_opt/_data/data/GSE7390.zip
 
 #Replace transmart war with custom version
 cd ../
